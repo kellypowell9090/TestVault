@@ -6,6 +6,7 @@ let domain = "4da87cac-8b96-4f03-8de4-007bc2f5ef37"; //tenant id
 let clientId = "e4abb4d1-6c49-4931-8de9-e016a7860991"; //application id / service principal
 let secretkey = "1X9D4jxBcss38Aj+1k81dULJ0EUejux4o4HN0vg8Gjo="; //key or app secret
 
+
 var msi_endpoint = process.env['MSI_ENDPOINT'];
 var msi_secret = process.env['MSI_SECRET'];
 
